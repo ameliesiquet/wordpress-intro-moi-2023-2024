@@ -1,3 +1,5 @@
+<?php /* Template Name: "A Propos" */ ?>
+
 <?php get_header(); ?>
 <?php if(have_posts()): while(have_posts()): the_post(); // Ouverture de "The Loop" de Wordpress ?>
 

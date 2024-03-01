@@ -10,4 +10,3 @@
     <script src="<?= dw_asset('script.js') ?>"></script>
 </head>
 <body>
-<h1><?= get_bloginfo('name'); ?></h1>
