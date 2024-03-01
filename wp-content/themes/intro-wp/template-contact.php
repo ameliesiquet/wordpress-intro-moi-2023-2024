@@ -7,9 +7,17 @@
             <h1 class="contact__title"><?= get_the_title(); ?></h1>
         </header>
         <section class="contact__intro">
-            <h2 class="sro">Contact</h2>
-            <?= get_the_content(); ?>
+            <p>Ici il y a un formulaire de contact</p>
         </section>
+        <aside>
+            <h2>Mes informations</h2>
+            <dl>
+                <dt>Téléphone</dt>
+                <dd><?= get_field('phone') ?></dd>
+                <dd>Email</dd>
+                <dd><?= get_field('email') ?></dd>
+            </dl>
+        </aside>
     </main>
 
     <?php endwhile; endif; // Fermeture de "The Loop" de Wordpress ?>
